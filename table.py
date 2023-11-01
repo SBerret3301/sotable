@@ -12,3 +12,11 @@ for i in range(10):
 a = int(input("enter the first index :"))
 b = int(input("enter the second index :"))
 print(soutable(T,a,b))
+while True :
+    a = int(input("if you want to repeat this program enter 1, if you dont enter 0 :"))
+    if a == 1 :
+        a = int(input("enter the first index :"))
+        b = int(input("enter the second index :"))
+        print(soutable(T,a,b))
+    else :
+        break
